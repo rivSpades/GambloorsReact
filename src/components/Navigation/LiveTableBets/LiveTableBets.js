@@ -6,7 +6,7 @@ function LiveTableBets(props) {
   useEffect(() => {
     // Establish WebSocket connection
     const socket = new WebSocket(
-      'ws://ec2-54-145-243-39.compute-1.amazonaws.com/ws/bets/'
+      'wss://ec2-54-145-243-39.compute-1.amazonaws.com/ws/bets/'
     );
 
     // Event handler for successful WebSocket connection
